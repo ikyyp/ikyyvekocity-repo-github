@@ -1,0 +1,173 @@
+/* Background Animasi dengan salju */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    background-size: cover;
+    animation: snowfall 10s infinite linear;
+}
+
+@keyframes snowfall {
+    0% { background-position: 0px 0px; }
+    100% { background-position: 0px 100px; }
+}
+
+/* Header dengan animasi */
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+.header-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2c3e50;
+    animation: fadeIn 2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Ranking Perokok */
+.ranking-perokok {
+    background: #34495e;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.ranking-perokok h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.rank-item {
+    font-size: 18px;
+    color: white;
+    margin: 15px 0;
+    background-color: #1abc9c;
+    padding: 15px;
+    border-radius: 5px;
+    animation: fade-in 1s ease-out forwards;
+}
+
+.rank-item:hover {
+    background-color: #e74c3c;
+    transform: scale(1.05);
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Ranking Futsal */
+.ranking-futsal {
+    background: #2c3e50;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ranking-futsal h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.futsal-item {
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+    background-color: #2980b9;
+    padding: 10px;
+    border-radius: 5px;
+    animation: fade-in 1s ease-out forwards;
+}
+
+.futsal-item:hover {
+    background-color: #3498db;
+}
+
+/* Tombol Interaktif */
+.interaktif-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.interaktif-btn:hover {
+    transform: scale(1.1);
+    background-color: #c0392b;
+}
+
+/* Instagram & Quotes */
+.instagram-quotes {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #34495e;
+}
+
+.instagram-quotes a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.instagram-quotes a:hover {
+    text-decoration: underline;
+}
+
+.quote {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 20px;
+}
+
+/* List Pemain Futsal */
+.list-pemain-futsal {
+    background: #1abc9c;
+    padding: 40px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.list-pemain-futsal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-pemain-futsal li {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    animation: fade-in 1s ease-out forwards;
+}
+
+.list-pemain-futsal li:hover {
+    background-color: #2980b9;
+}
